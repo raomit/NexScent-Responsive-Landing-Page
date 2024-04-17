@@ -1,0 +1,422 @@
+:root{
+    --bs-green: #4CAF4F;
+    --bs-dark: #4D4D4D;
+    --bs-gray: #717171;
+    --bs-gray-dark: #18191F;
+    --neutralblack: #263238;
+    --bs-secondary: #F5F7FA;
+}
+
+*{
+    font-family: 'Inter';
+}
+
+/* Common Classes Start */
+
+.bg-light{
+    background-color: var(--bs-secondary) !important;
+}
+
+.bg-lightdark{
+    background-color: var(--neutralblack);
+}
+
+.btn-green{
+    background-color: var(--bs-green);
+    color: white;
+}
+
+span.headerin{
+    color: var(--bs-green);
+}
+
+button:hover{
+    background-color: transparent !important;
+    border: 1px solid var(--bs-green) !important;
+    color: var(--bs-green) !important;
+}
+
+/* Common Classes End */
+
+
+/* Navbar Start */
+
+button.navbar-toggler:active, button.navbar-toggler:focus{
+    box-shadow: none !important;
+    border: 1px solid var(--bs-green);
+}
+
+i.fa-bars{
+    color: var(--bs-green);
+}
+
+a.nav-link{
+    color: var(--bs-gray-dark);
+}
+
+.btn-login{
+    color: var(--bs-green);
+}
+
+@media only screen and (max-width: 992px){
+    a.navbar-brand{
+        width: 34.3%;
+    }
+}
+
+/* Navbar End */
+
+/* Hero Start */
+
+h2.hero-header, h2.clients-header, h2.community-header, h5.card-title, h2.pixel-header, h2.reinvent-header, h2.design-header, h2.caring-header{
+    color: var(--bs-dark);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+
+p.hero-subheader, p.clients-subheader, p.community-subheader, p.card-text, p.pixel-subheader, p.reinvent-subheader, p.design-subheader, p.tesla-subheader, p.caring-subheader{
+    color: var(--bs-gray);
+    font-size: 1rem;
+}
+
+
+div.carousel-indicators-hero{
+    bottom: -8% !important;
+}
+
+@media only screen and (min-width: 768px){
+    h2.hero-header, h2.clients-header, h2.community-header, h5.card-title, h2.pixel-header, h2.reinvent-header, h2.design-header, h2.caring-header{
+        color: var(--bs-dark);
+        font-weight: 600;
+        font-size: 2.8rem;
+    }
+    
+    
+    p.hero-subheader, p.clients-subheader, p.community-subheader, p.card-text, p.pixel-subheader, p.reinvent-subheader, p.design-subheader, p.tesla-subheader, p.caring-subheader{
+        color: var(--bs-gray);
+        font-size: 1rem;
+    }
+
+@media only screen and (min-width: 992px){
+    h2.hero-header, h2.clients-header, h2.community-header, h5.card-title, h2.pixel-header, h2.reinvent-header, h2.design-header, h2.caring-header{
+        font-size: 3.8rem;
+    }
+    
+    
+    p.hero-subheader, p.clients-subheader, p.community-subheader, p.card-text, p.pixel-subheader, p.reinvent-subheader, p.design-subheader, p.tesla-subheader, p.caring-subheader{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    h2.hero-header, h2.clients-header, h2.community-header, h5.card-title, h2.pixel-header, h2.reinvent-header, h2.design-header, h2.caring-header{
+        font-size: 4.7rem;
+    }
+    
+    
+    p.hero-subheader, p.clients-subheader, p.community-subheader, p.card-text, p.pixel-subheader, p.reinvent-subheader, p.design-subheader, p.tesla-subheader, p.caring-subheader{
+        font-size: 1.29rem;
+    }
+}
+}
+
+
+
+/* Hero End */
+
+/* Our Clients Start */
+h2.clients-header, h2.community-header, h2.pixel-header, h2.reinvent-header, h2.design-header, h2.caring-header{
+    font-size: 1.9rem;
+}
+
+div.carousel-indicators{
+    bottom: -70%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    border-radius: 3rem !important;
+    background-color: var(--bs-green) !important;
+}
+
+@media only screen and (min-width: 768px){
+    h2.clients-header, h2.community-header, h2.pixel-header, h2.reinvent-header, h2.design-header, h2.caring-header{
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    h2.clients-header, h2.community-header, h2.pixel-header, h2.reinvent-header, h2.design-header, h2.caring-header{
+        font-size: 2.8rem;
+    }
+}
+
+/* Our Clients End */
+
+/* Community Start */
+
+div.card{
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    border: none;
+}
+
+div.community-container img.card-img-top{
+    width: 25%;
+}
+
+h5.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p.card-text{
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 768px){
+    h5.card-title{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    
+    p.card-text{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    div.community-container div.card{
+        height: 100%;
+    }
+
+    h5.card-title{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    
+    p.card-text{
+        font-size: 1rem;
+    }
+}
+
+/* Community End */
+
+/* Pixelgrade Start */
+
+p.pixel-subheader, p.design-subheader{
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 768px){
+    p.pixel-subheader, p.design-subheader{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+    p.pixel-subheader, p.design-subheader{
+        font-size: 0.95rem;
+    }
+}
+
+/* Pixelgrade End */
+
+/* Reinvent Start */
+
+h2.num-header{
+    font-weight: 700;
+    color: var(--bs-dark);
+    font-size: 1.3rem;
+}
+
+p.num-subheader{
+    color: var(--bs-gray);
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 992px){
+    h2.num-header{
+        font-size: 1.6rem;
+    }
+    
+    p.num-subheader{
+        font-size: 1rem;
+    }
+}
+
+/* Reinvent End */
+
+/* Design Footer Start */
+
+
+
+/* Design Footer End */
+
+/* Tesla Start */
+
+p.tesla-subheader{
+    color: var(--bs-gray-dark);
+}
+
+p.designation{
+    color: var(--bs-gray);
+}
+
+a.link{
+    text-decoration: none;
+    font-size: 1.1  rem;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+
+a.link:hover{
+    border-bottom: 2px solid var(--bs-green);
+    transition: all 0.2s ease-out;
+}
+
+@media only screen and (min-width: 992px){
+    p.tesla-subheader{
+        font-size: 1rem;
+    }
+}
+
+/* Tesla End */
+
+/* Caring Start */
+
+div.caring-container img{
+    z-index: -100;
+    position: relative;
+}
+
+div.card-main{
+    background-color: var(--bs-secondary);
+    width: calc(100% - 4rem);
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+    position: relative;
+    transform: translateY(-40%);
+    z-index: 1000 !important;
+}
+
+p.card-main-header{
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: var(--bs-gray);
+}
+
+
+@media only screen and (min-width: 768px){
+    p.card-main-header{
+        font-size: 0.8rem;
+    }
+
+    div.caring-container div.row div.card-main{
+        height: 45%;
+    }
+
+    div.card-main{
+        width: calc(100% - 2rem);
+    }
+}
+
+@media only screen and (min-width: 992px){
+
+    p.caring-subheader{
+        font-size: 1.1rem;
+    }
+
+    p.card-main-header{
+        font-size: 1.1rem;
+    }
+
+    div.caring-container div.row div.card-main{
+        height: 40%;
+    }
+
+    div.card-main{
+        width: calc(100% - 2rem);
+    }
+}
+
+@media only screen and (min-width: 1400px){
+
+    p.caring-subheader{
+        font-size: 1rem;
+    }
+
+    p.card-main-header{
+        font-size: 1.1rem;
+    }
+
+    div.caring-container div.row div.card-main{
+        height: 30%;
+    }
+
+    div.card-main{
+        width: calc(100% - 7rem);
+    }
+}
+
+/* Caring End */
+
+/* Footer 1 Start */
+
+h2.footer1-header{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px){
+    h2.footer1-header{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    h2.footer1-header{
+        font-size: 3.6rem;
+        font-weight: 600;
+    }
+}
+
+/* Footer 1 End */
+
+/* Footer 2 Start */
+
+div.icons i{
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.17);
+}
+
+input.form-control, span.input-group-text{
+    background-color: rgba(255, 255, 255, 0.17) !important;
+    border: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+
+h2.footer-header{
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+div.nav-container ul li, div.nav-container ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+
+/* Footer 2 End */
